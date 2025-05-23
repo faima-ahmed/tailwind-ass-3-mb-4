@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  /* ... */
+}
+
+@layer components {
+  .heading {
+    @apply mt-2 rounded-t-[20px] border-2 bg-[#FF6347] py-2 text-center text-[#E6E6FA]
+  }
+  .our-nav {
+    @apply mt-2 flex justify-between bg-amber-400 
+  }
+}
+
+
+
