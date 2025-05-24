@@ -6,12 +6,16 @@
 
 @layer components {
   .heading {
-    @apply mt-2 rounded-t-[20px] border-2 bg-[#FF6347] py-2 text-center text-[#E6E6FA]
+    @apply mt-2 rounded-t-[20px] border-2 bg-[#FF6347] py-2 text-center text-[#E6E6FA];
   }
   .our-nav {
-    @apply mt-2 flex justify-between bg-amber-400 
+    @apply mt-2 flex justify-between bg-amber-400;
   }
 }
 
-
-
+* {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
